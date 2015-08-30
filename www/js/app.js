@@ -47,25 +47,25 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
-    .state('app.altalaunch', {
-      url: "/altalaunch",
+    .state('app.altalaunchs', {
+      url: "/altalaunchs",
       views: {
         'menuContent': {
-          templateUrl: "templates/altalaunch.html",
-          controller: 'AltalaunchCtrl'
+          templateUrl: "templates/altalaunchs.html",
+          controller: 'AltalaucnhsCtrl'
         }
       }
     })
 
   .state('app.single', {
-    url: "/altalaunch/:menulistId",
+    url: "/playlists/:playlistId",
     views: {
       'menuContent': {
-        templateUrl: "templates/menulist.html",
-        controller: 'MenulistCtrl'
+        templateUrl: "templates/playlist.html",
+        controller: 'PlaylistCtrl'
       }
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/altalaunch');
+  $urlRouterProvider.otherwise('/app/playlists');
 });

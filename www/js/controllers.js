@@ -41,8 +41,8 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('AltalaunchCtrl', function($scope) {
-  $scope.menulists = [
+.controller('AltalaunchsCtrl', function($scope) {
+  $scope.altalaunchs = [
     { title: 'Reggae', id: 1 },
     { title: 'Chill', id: 2 },
     { title: 'Dubstep', id: 3 },
@@ -52,5 +52,5 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('MenulistCtrl', function($scope, $stateParams) {
+.controller('AltalaunchCtrl', function($scope, $stateParams) {
 });
