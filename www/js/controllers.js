@@ -43,12 +43,11 @@ angular.module('starter.controllers', [])
 
 .controller('AltalaunchsCtrl', function($scope) {
   $scope.altalaunchs = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'Estimate', id: 1 },
+    { title: 'Contact Us', id: 2 },
+    { title: 'ITServices', id: 3 },
+    { title: 'Consultings', id: 4 },
+    { title: 'Projects', id: 5 }
   ];
 })
 
