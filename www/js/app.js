@@ -52,20 +52,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: "templates/altalaunchs.html",
-          controller: 'AltalaucnhsCtrl'
+          controller: 'AltalaunchsCtrl'
         }
       }
     })
 
   .state('app.single', {
-    url: "/playlists/:playlistId",
+    url: "/altalaunchs/:altalaunchId",
     views: {
       'menuContent': {
-        templateUrl: "templates/playlist.html",
-        controller: 'PlaylistCtrl'
+        templateUrl: "templates/altalaunch.html",
+        controller: 'AltalaunchCtrl'
       }
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/altalaunchs');
 });
