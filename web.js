@@ -6,6 +6,6 @@ var app = express();
 app.use(morgan('dev'));
 // console.log(__dirname);
 // app.use(gzippo.staticGzip("" + __dirname + "/dist"));
-app.use(gzippo.staticGzip("" + __dirname + "/www"));
+app.use(gzippo.staticGzip("" + __dirname + "/app"));
 app.listen(process.env.PORT || 5000);
 
