@@ -1,13 +1,25 @@
-# alta-launch
+# angular-darberplate — an instantly Heroku-deployable angular-seed with bootstrap
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+Just read the [angular-seed][angular-seed] docs for the real deets. I just took out some of the cruft (second view and demo components) and put jQuery and bootstrap in there too because I'm awesome.
 
-## Build & development
+Finally, it also works with Heroku immediately!
 
-Run `grunt` for building and `grunt serve` for preview.
+## Directory Layout
 
-## Testing
+```
+app/                    --> all of the source files for the application
+  app.css               --> default stylesheet
+  home/                  --> the home view template and logic
+    home.html            --> the partial template
+    home.js              --> the controller logic
+    home_test.js         --> tests of the controller
+  app.js                --> main application module
+  index.html            --> app layout file (the main html template file of the app)
+  index-async.html      --> just like index.html, but loads js files asynchronously
+karma.conf.js         --> config file for running unit tests with Karma
+e2e-tests/            --> end-to-end tests
+  protractor-conf.js    --> Protractor config file
+  scenarios.js          --> end-to-end scenarios to be run by Protractor
+```
 
-Running `grunt test` will run the unit tests with karma.
-# altaLaunch
+[angular-seed]: https://github.com/angular/angular-seed
