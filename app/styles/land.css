@@ -1,0 +1,99 @@
+body {
+  display: block;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bigNum {
+  display: inline-block;
+  font-size: 8.5em;
+  color: lightgray;
+}
+
+.menu {
+  position: fixed;
+  top: 50%;
+  right: 3px;
+}
+ul {
+  margin:0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+  width: 12px;
+  height: 12px;
+}
+
+li a {
+  display: block;
+  height: 6px;
+  width: 6px;
+  background: black;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+
+a:hover {
+  height: 12px;
+  width: 12px;
+  background: gray;
+}
+
+.selected {
+  height: 12px;
+  width: 12px;
+  background: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin:0px;
+  border: 0px;
+}
+
+#sectionTop {
+background: #5CCA80;
+  padding: 20px;
+}
+
+#sectionMid {
+  background: #CC5A80;
+}
+
+#sectionBot {
+  background: #A5CC80;
+}
+
+.box {
+  width: 100%;
+  height: 800px;
+  padding: 20px;
+
+}
+
+.strip, .love, .fish {
+    height: 150px;
+  width: 96.5%;
+  
+}
+
+.strip {
+
+  background: url("http://cdn.desktopwallpapers4.me/wallpapers/comics/1920x1200/3/20782-marvel-superheroes-1920x1200-comic-wallpaper.jpg");
+  background-attachment: fixed;  
+}
+
+.love{
+ background:url("https://lh3.googleusercontent.com/-YGxnEIo-tSo/VruxSHA01KI/AAAAAAAEFwg/dYv9BC_GqeA/w530-h709-rw/Tomasz%252520Alen%252520Kopera_18_signature.gif");
+  background-attachment: fixed;
+}
+
+.fish {
+  background: url("https://images.unsplash.com/photo-1451186859696-371d9477be93?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=793b5d1d4707b9d5685bb15e8a99467e");
+  background-attachment: fixed;
+}
